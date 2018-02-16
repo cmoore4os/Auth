@@ -39,7 +39,7 @@ const expectStatus = (expected, method, path, res) => {
     case STATUS_SERVER_ERROR:
       throw new Error(
         `Your server threw an error during ${method} ${path} (status code ` +
-        '500); scroll up to see the expection and backtrace'
+        '500); scroll up to see the expectation and backtrace'
       );
 
     case STATUS_NOT_FOUND:
